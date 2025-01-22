@@ -14,14 +14,17 @@ This project aims to explore how words function as “bridges” in cross-discip
 We provide data specific to the two Case Studies in the data/ folder.
 
 ## Database for tokenized corpora
-For convenience, a pre-built SQLite database (.sqlite3) containing tokenized corpora is available for download. This database includes:
+For convenience, pre-built SQLite databases for each case study (.db) containing tokenized corpora is available for download. 
 
-Tokenized text from multiple disciplines.
+This database includes tokenized text from multiple disciplines and supports the webapp.
 
 To use the database:
 
-Download the db file from our provided link.
-Place the database in a suitable directory (e.g., `{ROOT}/databases/`).
+Download the db file from our provided links.
+- [Case study 1](https://drive.google.com/file/d/1-5PjBAXzmVh3GoCl4v1ZdCKYBBRzsSow/view?usp=sharing)
+- [Case study 2](https://drive.google.com/file/d/17RyvM7xpcsSv5Ycsf2M_BLBEACcgo_-7/view?usp=sharing)
+
+Place the databases in a suitable directory (e.g., `{ROOT}/databases/`).
 
 
 ## Exploration & Quantitative Evaluation
