@@ -1,0 +1,55 @@
+INFO - 09/09/24 14:13:49 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/09/24 14:13:49 - 0:00:00 - adversarial: True
+                                     batch_size: 32
+                                     cuda: True
+                                     dico_build: S2T
+                                     dico_eval: /content/drive/MyDrive/analogy/nltk.stopword.dict.txt
+                                     dico_max_rank: 15000
+                                     dico_max_size: 0
+                                     dico_method: csls_knn_10
+                                     dico_min_size: 0
+                                     dico_threshold: 0
+                                     dis_clip_weights: 0
+                                     dis_dropout: 0.0
+                                     dis_hid_dim: 2048
+                                     dis_input_dropout: 0.1
+                                     dis_lambda: 1
+                                     dis_layers: 2
+                                     dis_most_frequent: 4000
+                                     dis_optimizer: sgd,lr=0.1
+                                     dis_smooth: 0.1
+                                     dis_steps: 5
+                                     emb_dim: 50
+                                     epoch_size: 1000000
+                                     exp_id: 
+                                     exp_name: vocab4k_v2
+                                     exp_path: /content/drive/MyDrive/analogy/s2orc/20200705v1/full/level1.abstract.api/MUSE/Yimin.v2__hci.sg50--pro.sg50/vocab4k_v2/g2pskcgtis
+                                     export: txt
+                                     lr_decay: 0.98
+                                     lr_shrink: 0.5
+                                     map_beta: 0.001
+                                     map_id_init: True
+                                     map_optimizer: sgd,lr=0.1
+                                     max_vocab: 4000
+                                     min_lr: 1e-06
+                                     n_epochs: 10
+                                     n_refinement: 5
+                                     normalize_embeddings: 
+                                     seed: -1
+                                     src_emb: /content/drive/MyDrive/analogy/s2orc/20200705v1/full/level1.abstract.api/fastText/Yimin.v3__hci--paper_with_in_out.api.user_phrase.sg50i10.vec
+                                     src_lang: hci
+                                     tgt_emb: /content/drive/MyDrive/analogy/s2orc/20200705v1/full/level1.abstract.api/fastText/professional_v2.kpe.TopicRank.top20.cutoff5.sg50i10.vec
+                                     tgt_lang: pro
+                                     verbose: 2
+INFO - 09/09/24 14:13:49 - 0:00:00 - The experiment will be stored in /content/drive/MyDrive/analogy/s2orc/20200705v1/full/level1.abstract.api/MUSE/Yimin.v2__hci.sg50--pro.sg50/vocab4k_v2/g2pskcgtis
+INFO - 09/09/24 14:13:50 - 0:00:01 - Loaded 4000 pre-trained word embeddings.
+INFO - 09/09/24 14:13:51 - 0:00:02 - Loaded 4000 pre-trained word embeddings.
+INFO - 09/09/24 14:13:53 - 0:00:03 - ----> ADVERSARIAL TRAINING <----
+                                     
+                                     
+INFO - 09/09/24 14:13:53 - 0:00:03 - Starting adversarial training epoch 0...
+INFO - 09/09/24 14:13:54 - 0:00:05 - 000000 - Discriminator loss: 0.6358 - 48 samples/s
+INFO - 09/09/24 14:13:55 - 0:00:06 - 004000 - Discriminator loss: 0.5809 - 5289 samples/s
+INFO - 09/09/24 14:13:57 - 0:00:08 - 008000 - Discriminator loss: 0.5621 - 5107 samples/s
+INFO - 09/09/24 14:13:59 - 0:00:09 - 012000 - Discriminator loss: 0.5681 - 4958 samples/s
+INFO - 09/09/24 14:14:00 - 0:00:11 - 016000 - Discriminator loss: 0.5703 - 5992 samples/s
